@@ -7,6 +7,7 @@
 * [Module 0](#module-0-course-info)
     * [Schedule](#course-schedule)
     * [Assignments](#course-assignments)
+    * [Using SAS in the course](#using-sas-in-the-course)
 * [Module 1](#module-1-intro-SAS-install-getting-started)
     * [Assignment 1](#assignment-1-software-installation-and-data-file-preparation)
 * [Module 2](#module-2-preparing-text-for-mining-and-analysis)
