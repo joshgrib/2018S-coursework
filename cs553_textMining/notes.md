@@ -80,6 +80,17 @@
 #### Goal
 Read introductory material. Install software and load a file containing at least one text field. Display some of the data/text within the software. If you have not done so already join one of the Assignment Groups even if you want to work by yourself. Limit 3 to a group
 #### Notes
+* I'm just following the guide from the modules
+* [Useful link to get started with data](https://communities.sas.com/t5/SAS-Communities-Library/Tip-How-to-create-data-sources-from-imported-files-and-share/ta-p/221694)
+
+#### Steps
+* New project
+* New Diagram
+* Add File Import node to get source
+* Add transformation now to add serious
+    * In properties open up `Formulas`
+    * Click the `Create` icon in the top left
+    * Go to `Sample` in the bottom tabs to see the data
 
 ---
 
