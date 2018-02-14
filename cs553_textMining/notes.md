@@ -84,12 +84,22 @@ Read introductory material. Install software and load a file containing at least
 * [Useful link to get started with data](https://communities.sas.com/t5/SAS-Communities-Library/Tip-How-to-create-data-sources-from-imported-files-and-share/ta-p/221694)
 
 #### Steps
+* Go to the SAS website `https://odamid.oda.sas.com/SASODAControlCenter/`
+* Log in, select `SAS® Enterprise Miner™`
+* Run the file to start the program
 * New project
 * New Diagram
-* Add File Import node to get source
-* Add transformation now to add serious
+* In the top toolbar, go to `Sample`>`File Import` , add this as the first node in the diagram
+    * Under the node properties select `Import File` and navigate to the file with the data
+* Add a `Modify`>`Transform Variables` node, connect the `File Import` node to it
     * In properties open up `Formulas`
     * Click the `Create` icon in the top left
+    * Create the formula for the variable you want
+        * `Name` is `SERIOUS`
+        * Formula is `SUBSTRN('NY', (DIED = 'Y' | ER_VISIT='Y' | HOSPITAL='Y' | DISABLE='Y')+1, 1)`
+            * In the inner parenthesis this checks if those columns have a `Y` value, which return a 0 or 1
+            * Then we take a substring of `NY`, starting at 1 or 2(I guess that's how SAS does indexing) and taking 1 character
+            * So if any columns are `Y` we get a 1 and take the second character, `Y`, otherwise we get the first, `N`
     * Go to `Sample` in the bottom tabs to see the data
 
 ---
