@@ -1,6 +1,7 @@
 <!-- markdownlint-disable MD007 -->
 <!-- markdownlint-disable MD022 -->
 <!-- markdownlint-disable MD032 -->
+<!-- markdownlint-disable MD024 -->
 # CS 553 Notes
 
 **Table of Contents:**
@@ -82,7 +83,6 @@ Read introductory material. Install software and load a file containing at least
 #### Notes
 * I'm just following the guide from the modules
 * [Useful link to get started with data](https://communities.sas.com/t5/SAS-Communities-Library/Tip-How-to-create-data-sources-from-imported-files-and-share/ta-p/221694)
-
 #### Steps
 * Go to the SAS website `https://odamid.oda.sas.com/SASODAControlCenter/`
 * Log in, select `SAS® Enterprise Miner™`
@@ -106,36 +106,64 @@ Read introductory material. Install software and load a file containing at least
 
 ## Module 2: preparing text for mining and analysis
 ### Assignment 2
+>Due 20180221
+#### Goal
+Separate the data set into randomly selected training, validation, and testing partitions; in SAS, this may have to be done first. Show the results of parsing and filtering the document corpus, showing words, terms, tokens, lemmata, parts of speech, special and multi-word features, and their frequencies. Create and show the term frequency/inverse document frequency (tf-idf) table. Show concepts from frequent term associations in a table or graph to identify frequent, possibly non-contiguous, multi-word combinations that might have importance in the text
+#### Notes
+* Lecture focussed on different theories and methods of breaking down text into meaningful chunks to compare - parts of speech, relation in distance to other words, using roots of words to find different versions of the same word and relating it to a particular usage
+* For assignment - **compare results when using partitions(training, validating, testing) to not using partitioning, and try a few different partition percentages**
+* Tutorial: https://support.sas.com/documentation/cdl/en/tmgs/65668/PDF/default/tmgs.pdf
+#### Steps
+1. Read material for the week
+2. Open SAS, add the data, get oriented
 
 ---
 
 ## Module 3: clustering and segment profiling
 ### Assignment 3
+#### Goal
+#### Notes
+#### Steps
 
 ---
 
 ## Module 4: classification prediction: decision trees and rules
 ### Assignment 4
+#### Goal
+#### Notes
+#### Steps
 
 ---
 
 ## Module 5: text topics, clusters, decision rules
 ### Assignment 5
+#### Goal
+#### Notes
+#### Steps
 
 ---
 
 ## Module 6: "by hand" clustering
 ### Assignment 6
+#### Goal
+#### Notes
+#### Steps
 
 ---
 
 ## Module 7: info extraction, named entity recognition, disambiguation
 ### Assignment 7
+#### Goal
+#### Notes
+#### Steps
 
 ---
 
 ## Module 8: case studies
 ### Assignment 8
+#### Goal
+#### Notes
+#### Steps
 
 ---
 
