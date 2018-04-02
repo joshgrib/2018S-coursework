@@ -116,12 +116,14 @@ Separate the data set into randomly selected training, validation, and testing p
 #### Steps
 1. Read material for the week
 2. Open SAS, add the data, get oriented
+3. Follow the tutorial for chapter 4 up to clustering
 
 ---
 
 ## Module 3: clustering and segment profiling
 ### Assignment 3
 #### Goal
+Without using the target variable nor its constituents, cluster the rows of the data set into both a given number of clusters and the number of cluster the software determines without input from the user (if it can do that). Clusters are also called segments. Interpret how the observations in each cluster are like each other and different from the other clusters, and how variable values distributions in each cluster compare to their distributions in the entire data set.  Give the clusters a short, descriptive name. Interpret the characteristics of the important variables and descriptive terms for each cluster/segment considering the proportions of the target variable values for that segment; do they suggest the proportion of observations with various values of the target variable are different in the various segments?  This is ultimately one of the goals of clustering and population segmentation.  Clustering is unsupervised so no partitions are needed but may be used by the software to test the cluster for some optimality.
 #### Notes
 #### Steps
 
